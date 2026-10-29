@@ -1,0 +1,5 @@
+
+
+can't figure a proper way of closing up the speed(spd)'s value to  0 when no movement buttons are held 
+[UNIDENTIFIED]
+[NOT FIXED]

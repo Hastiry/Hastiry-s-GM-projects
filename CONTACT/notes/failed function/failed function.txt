@@ -1,0 +1,4 @@
+
+
+can't figure out how to make a function for movement that would apply to more than one object, think im better off
+just not making it since i'm only using movement on a grand total of TWO objects

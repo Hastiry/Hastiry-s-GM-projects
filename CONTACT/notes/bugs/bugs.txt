@@ -1,0 +1,11 @@
+a collision error that makes the enemy objects collide with something (horizontally) and stop moving, doesn't happen always but sometimes
+[SOLVED..?]
+i added a line of code into the parent object that checks if the enemy is still and can_move this solved the issue
+i originally had; though i'm not sure if it's still present or not. further tests will be required (probably)
+
+after some work on making a proper velocity system for the obj_ball it works though i can't figure out how to limit the 
+speed (spd) with the max speed (spd_max) range; while not a major issue (as of now) it will make stuff complicated
+(maybe even annoying) to deal with later on
+[SOLVED]
+figure it out, i added a condition into every case of the switch statment for _hor that checcks wheather the speed's
+(spd) value times sign itself is less than the max speed (spd_max)
